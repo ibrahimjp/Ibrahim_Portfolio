@@ -2,7 +2,7 @@ import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 
 import { cn } from "@/lib/utils";
 
@@ -96,8 +96,9 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
         >
           {spareImg && (
             <img
@@ -162,10 +163,18 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
               >
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie
+                  loop={defaultOptions.loop}
+                  autoplay={defaultOptions.autoplay}
+                  animationData={defaultOptions.animationData}
+                  rendererSettings={defaultOptions.rendererSettings}
+                  height={200}
+                  width={400}
+                />
               </div>
 
               <MagicButton
