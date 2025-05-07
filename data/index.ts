@@ -71,6 +71,20 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Ai Interview Preparation",
+    des: "Practice smarter, not harder — AI Interview Prep is a powerful platform that simulates Google-style interviews using generative AI, evaluates your spoken answers in real time, and provides instant, structured feedback to help you master DSA, system design, and web development.",
+    img: "/ai_interview (2).png",
+    iconLists: [
+      "/gemini.webp",
+      "/next.svg",
+      "/re.svg",
+      "/tail.svg",
+      "/nodejs.png",
+    ],
+    link: "https://aiinterviewprep-delta.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Hotel Renting Website",
     des: "Discover and book your perfect stay with ease — a sleek, user-friendly hotel renting platform built for seamless travel planning",
     img: "/p1.png",
@@ -78,7 +92,7 @@ export const projects = [
     link: "https://hotel-renting-website-project.onrender.com/listings",
   },
   {
-    id: 2,
+    id: 3,
     title: "Expense Management",
     des: "Take control of your finances with ease. Track, manage, and analyze your expenses effortlessly—all in one place",
     img: "/p2.png",
@@ -90,33 +104,28 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I have continuously strived to elevate my skills and push boundaries in the tech domain. My accomplishments include building a robust AI Interview Preparation platform that leverages generative AI to simulate Google-style interviews, providing real-time feedback and analysis on DSA, system design, and web development. Additionally",
+    img: "ibrahim1.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "I developed a comprehensive AI-powered Interview Preparation platform that mimics real-world Google-style interviews. This project leverages generative AI to simulate interview questions, evaluate spoken answers in real-time, and provide instant, structured feedback on DSA, system design, and web development topics. It enables users to practice effectively, receive constructive feedback, and refine their problem-solving and communication skills, making it a powerful tool for aspiring software engineers.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    img: "ibrahim3.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "I have successfully tackled over 450 problems on LeetCode, focusing on key data structures, algorithms, and advanced problem-solving techniques. This achievement underscores my dedication to mastering complex coding challenges, from dynamic programming and graph traversal to intricate recursion and binary search problems. It not only sharpens my coding abilities but also prepares me to handle algorithmic challenges effectively in competitive programming and technical interviews.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
+    img: "ibrahim4.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "I built a sleek, user-friendly Hotel Renting platform designed to simplify travel planning. This project integrates React.js, Tailwind CSS, and Node.js to provide a seamless booking experience, allowing users to search, filter, and book accommodations with ease. The platform prioritizes intuitive design and a responsive interface, ensuring a smooth user experience across devices. This project showcases my ability to develop full-stack applications with a strong focus on user-centric design.",
     title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    img: "ibrahim2.jpg",
   },
 ];
 
